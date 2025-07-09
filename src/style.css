@@ -184,6 +184,7 @@ h1 {
 
 .grid-container {
   margin-top: 50px;
+  margin-bottom: 15px;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
@@ -252,4 +253,31 @@ h1 {
   border-radius: 8px;
   border: solid 1px var(--paragraph-color);
   text-decoration: none;
+}
+
+/* tech stack section */
+
+.flex-stack {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 30px auto;
+  padding: 5px;
+  width: 750px;
+  background-color: var(--card-background-color);
+  border-radius: 8px;
+  border: solid 1px var(--paragraph-color);
+}
+
+.flex-stack > a {
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  color: var(--paragraph-color);
+  padding: 6px 25px;
+  border-radius: 3px;
+}
+
+.flex-stack > a:hover {
+  background-color: #16161a;
 }
