@@ -81,7 +81,7 @@ h1 {
   align-items: center;
 }
 
-.social-info a {
+.social-icons a {
   color: var(--text-color);
   text-decoration: none;
   padding: 5px;
@@ -304,4 +304,105 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+/* certification section */
+
+.certifications-container {
+  /* background-color: var(--paragraph-color); */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 15px;
+}
+
+.card-certification {
+  background-color: var(--card-background-color);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 365px;
+  padding: 10px;
+  border: solid 1px var(--paragraph-color);
+  border-radius: 8px;
+}
+
+.card-certification > img {
+  width: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.title-certification {
+  font-weight: 600;
+}
+
+.site-certification {
+  color: var(--paragraph-color);
+  margin-bottom: 10px;
+}
+
+.link-certification {
+  text-decoration: none;
+}
+
+/* footer section */
+
+footer {
+  background-color: var(--card-background-color);
+  margin-top: 6.2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+
+.dev-with {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--paragraph-color);
+}
+.reserve-rights {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--paragraph-color);
+}
+
+.contact-footer {
+  font-size: 0.9rem;
+}
+
+.flex-stackFooter {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.flex-i-footer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-tech {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.icon-footer {
+  width: 22px;
+}
+
+.final-text {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 3rem;
 }
