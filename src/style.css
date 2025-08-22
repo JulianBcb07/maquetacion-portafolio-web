@@ -5,31 +5,11 @@
   3. Custon fonts and sizes
 */
 :root {
-  --light-background-color: #ffffff;
-  --light-card-background-color: #f0f0f0;
-  --light-fond-back-color: #524523;
-  --light-border-color: #ffff;
-  --light-text-color: #16161a;
-  --light-paragraph-color: #4444;
-
-  --primary-color: hsl(230, 77%, 42%);
-  --text-color-buttons: hsl(210.84 100% 41.96%);
-  --secondary-color: #3b82f6;
-  --third-color: #3075e427;
-
   --box-dark-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-
-  --background-color: hsl(0 0% 5%);
-  --card-background-color: hsl(0 0% 10%);
-  --text-color: hsl(0 0% 95%);
-  --paragraph-color: hsl(0 0% 70%);
-  --componets-background: #4889fc;
-  --text-stack-color: #3b82f6;
-  --background-text-stack-color: #3075e427;
 }
 
-.dark-mode {
+[data-theme="light"] {
   --primary-color: hsl(218 100% 85%);
   --secondary-color: hsl(209 100% 70%);
   --third-color: #3075e427;
@@ -38,6 +18,23 @@
   --card-background-color: hsl(0 0% 92%);
   --text-color: hsl(0 0% 5%);
   --paragraph-color: hsl(0 0% 25%);
+  --componets-background: #4889fc;
+  --text-stack-color: #3b82f6;
+  --background-text-stack-color: #3075e427;
+}
+
+[data-theme="dark"] {
+  --primary-color: hsl(230, 77%, 42%);
+  --text-color-buttons: hsl(210.84 100% 41.96%);
+  --secondary-color: #3b82f6;
+  --third-color: #3075e427;
+
+  --fond-back-color: #524523;
+
+  --background-color: hsl(0 0% 5%);
+  --card-background-color: hsl(0 0% 10%);
+  --text-color: hsl(0 0% 95%);
+  --paragraph-color: hsl(0 0% 70%);
   --componets-background: #4889fc;
   --text-stack-color: #3b82f6;
   --background-text-stack-color: #3075e427;
