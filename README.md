@@ -21,8 +21,6 @@ _Crear un portafolio web permite que muchas personas como reclutadores y otros d
 
 ---
 
-#### <h4 align="center">
-
+<h4 align="center">
 🚧 Proyecto en construcción 🚧
-
 </h4>
